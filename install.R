@@ -1,5 +1,2 @@
-install.packages("tidyverse")
-install.packages("rmarkdown")
-install.packages("httr")
-install.packages("shinydashboard")
-install.packages('leaflet')
+install.packages("devtools")
+devtools::install_github("cytoscape/RCy3")
